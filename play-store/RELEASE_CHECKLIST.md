@@ -1,0 +1,26 @@
+# K-Food Table Play 출시 체크리스트
+
+- [x] HTTPS 공개 웹사이트
+- [x] 설치형 웹 앱 매니페스트
+- [x] 서비스 워커와 오프라인 안내
+- [x] 192px, 512px, 마스커블 앱 아이콘
+- [x] 공개 개인정보처리방침
+- [x] Android Trusted Web Activity 프로젝트
+- [x] 패키지명 `com.kfoodtable.app`
+- [x] Target SDK 36
+- [x] Android release 번들 컴파일 및 Android Lint 0 errors 확인
+- [x] 500개 레시피 구조·영문 잔존·중복·사진 URL 자동 감사 통과
+- [x] 업로드 서명키 생성
+- [ ] 업로드 서명키와 `keystore.properties` 안전한 별도 백업
+- [ ] Play App Signing 인증서 지문을 `.well-known/assetlinks.json`에 등록
+- [x] 서명된 Android App Bundle(AAB) 빌드 및 서명 검증
+- [ ] Play Console 개발자 계정 확인
+- [ ] 개발자 연락처 이메일 입력
+- [ ] 조직 계정 사용 시 AIPRO D-U-N-S 번호·법적 이름·주소·전화번호·웹사이트 확인
+- [x] 개인정보처리방침에 실제 개발자 정보와 개인정보 문의 연락처 입력
+- [x] 휴대전화 스크린샷 4장 및 1024×500 특성 그래픽 준비
+- [ ] Supabase `recipe_library` 500행과 승인 사진 업로드 후 앱 연결
+- [ ] 500개 자동 번역과 조리 설명의 사람 검수 완료 또는 `검수 전` 표시에 맞게 출시 범위 조정
+- [ ] 콘텐츠 등급, 대상 연령, 광고 여부, 데이터 보안 설문 완료
+- [ ] 내부 테스트 트랙 업로드 및 실제 기기 점검
+- [ ] 프로덕션 심사 제출
